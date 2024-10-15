@@ -3,9 +3,9 @@
  */
 import java.util.*;
 class Stack {
-    private int[] stackArray;  // Array to store stack elements
-    private int top;           // Top of the stack
-    private int capacity;      // Maximum capacity of the stack
+    int[] stackArray;  // Array to store stack elements
+    int top;           // Top of the stack
+    int capacity;      // Maximum capacity of the stack
 
     // Constructor to initialize the stack
     public Stack(int size) {
@@ -20,7 +20,8 @@ class Stack {
             System.out.println("Stack Overflow! Cannot push " + value);
             return;
         }
-        stackArray[++top] = value;
+        top++;
+        stackArray[top] = value;
         System.out.println("Pushed " + value + " to the stack.");
     }
 
