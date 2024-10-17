@@ -35,3 +35,9 @@ The repository is organized by **days**. Each day, a new problem or concept is c
 - Learn the basics of the Stack data structure.
 - Implementation of basic stack operations such as push(), pop(), peek(), and isEmpty().
 
+### Day 2: [ Implement Queue using array](Day2.java)
+**Description**
+- Introduction to the Queue data structure.
+- Simple queue implementation using arrays.
+- Operations like enqueue(), dequeue(), and peek().
+- Additional queue problems to further reinforce the understanding of queues.
