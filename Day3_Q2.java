@@ -50,6 +50,24 @@ public class Day3_Q2 {
         System.out.println("null");
     }
 
+    // Deletion from the beginning
+    public void deleteFromBeginning() {
+        if (head != null) {
+            head = head.next;
+        }
+    }
+
+    // Count the number of nodes
+    public int countNodes() {
+        int count = 0;
+        Node current = head;
+        while (current != null) {
+            count++;
+            current = current.next;
+        }
+        return count;
+    }
+
     public static void main(String[] args) {
         Day3_Q2 list = new Day3_Q2();
         list.addFirst(10);
