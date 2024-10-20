@@ -72,7 +72,7 @@ The repository is organized by **days**. Each day, a new problem or concept is c
 - 5. Deletion from End: Removes the last node by traversing to the second-to-last node and updating its pointer.
 - 6. Deletion from Specific Position: Deletes a node at a specified index by adjusting the previous node's pointer.
 
-### Day 3-Q3: [ Implement Linked List](Day3_Q3.java)
+### Day 3-Q3: [ Implement Deque Using Array](Day3_Q3.java)
 **Description**
 - 1. Enqueue: Adds an element to the end of the queue and updates the rear pointer, wrapping around if necessary.
 - 2. Dequeue: Removes and returns the front element of the queue while updating the front pointer, wrapping around if necessary.
@@ -81,7 +81,7 @@ The repository is organized by **days**. Each day, a new problem or concept is c
 - 5. isFull: Checks if the queue is full by determining if incrementing the rear pointer would make it equal to the front pointer.
 - 6. Size: Returns the current number of elements in the queue by calculating the difference between front and rear pointers.
 
-### Day 4-Qs1: [ Implement Linked List](Day4_Qs1.java)
+### Day 4-Qs1: [ Implement Stack Using Linked List](Day4_Qs1.java)
 **Description**
 - 1. Push: Adds an element to the top of the stack and increments the top pointer, checking for overflow.
 - 2. Pop: Removes and returns the top element of the stack while decrementing the top pointer, checking for underflow.
@@ -90,7 +90,7 @@ The repository is organized by **days**. Each day, a new problem or concept is c
 - 5. isFull: Checks if the stack is full by comparing the top pointer with the maximum stack size.
 - 6. Size: Returns the current number of elements in the stack by adding one to the top pointer.
 
-### Day 4-Qs2: [ Implement Linked List](Day4_Qs2.java)
+### Day 4-Qs2: [ Implement Circular Queue Using Linked List](Day4_Qs2.java)
 **Description**
 
 - 1. Enqueue: Adds an element to the rear of the circular queue and updates the rear pointer, wrapping around if necessary.
@@ -100,7 +100,7 @@ The repository is organized by **days**. Each day, a new problem or concept is c
 - 5. isFull: Checks if the circular queue is full by determining if incrementing the rear pointer would equal the front pointer.
 - 6. Size: Returns the current number of elements in the circular queue by calculating the difference between the front and rear pointers, considering wrapping around.
 
-### Day 4-Qs3: [ Implement Linked List](Day4_Qs3.java)
+### Day 4-Qs3: [ Implement Double-ended Queue Using Linkedlist](Day4_Qs3.java)
 **Description**
 
 - 1. Enqueue Front: Adds an element to the front of the deque and updates the front pointer, wrapping around if necessary.
@@ -113,7 +113,7 @@ The repository is organized by **days**. Each day, a new problem or concept is c
 - 8. isFull: Checks if the deque is full by determining if incrementing the rear pointer would make it equal to the front pointer.
 - 9. Size: Returns the current number of elements in the deque by calculating the difference between front and rear pointers.
 
-### Day 4-Qs3: [ Implement Linked List](Day4_Qs3.java)
+### Day 4-Qs4: [ Revese Linked List](Day4_Qs3.java)
 **Description**
 
 
