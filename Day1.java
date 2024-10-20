@@ -3,7 +3,7 @@
  */
 import java.util.*;
 class Stack {
-    int[] stackArray;  // Array to store stack elements
+    int[] stackArray;  // Array to store stack elements  
     int top;           // Top of the stack
     int capacity;      // Maximum capacity of the stack
 
