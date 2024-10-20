@@ -113,7 +113,7 @@ The repository is organized by **days**. Each day, a new problem or concept is c
 - 8. isFull: Checks if the deque is full by determining if incrementing the rear pointer would make it equal to the front pointer.
 - 9. Size: Returns the current number of elements in the deque by calculating the difference between front and rear pointers.
 
-### Day 4-Qs4: [ Revese Linked List](Day4_Qs3.java)
+### Day 4-Qs4: [ Revese Linked List](Day4_Qs4.java)
 **Description**
 
 
