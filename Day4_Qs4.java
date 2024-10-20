@@ -8,12 +8,12 @@ class Node {
     }
 }
 
-public class Day4_Qs4 {
-    static Node head;
-    static Node tail;
+class LinkedList {
+    public Node head; // Head of the list
+    public Node tail; // Tail of the list
 
-    // Insert at the end
-    public static void addLast(int data) {
+    // Insertion at the end
+    public void insertAtEnd(int data) {
         Node newNode = new Node(data);
         if (head == null) {
             head = tail = newNode;
@@ -23,30 +23,52 @@ public class Day4_Qs4 {
         tail = newNode;
     }
 
-    // Reverse LinkedList using recursion and print the values
-    public static void reversePrint(Node node) {
-        if (node == null) {
-            return;  // Base case: end of the list
+    // Function to reverse the linked list recursively
+    public Node reverse(Node current) {
+        // Base case: if the list is empty or only one node is present
+        if (current == null || current.next == null) {
+            return current; // Return the new head
         }
-        reversePrint(node.next);  // Recursive call to the next node
-        System.out.print(node.data + " ");  // Print after the recursive call (to reverse the order)
+        // Recursively reverse the rest of the list
+        Node newHead = reverse(current.next);
+        // Change pointers
+        current.next.next = current; // Make the next node point to the current node
+        current.next = null;          // Set the current node's next to null
+        return newHead;               // Return the new head
     }
 
-    // Print reverse of the linked list
-    public void printReverse() {
-        reversePrint(head);  // Start reverse printing from the head
-        System.out.println();  // Move to the next line after printing
+    // Wrapper method to reverse the list
+    public void reverseList() {
+        head = reverse(head);
     }
 
-    public static void main(String[] args) {
-        Day4_Qs4 list = new Day4_Qs4();
-        list.addLast(10);
-        list.addLast(20);
-        list.addLast(30);
-        list.addLast(40);
-        list.addLast(50);
-
-        System.out.println("The reversed linked list:");
-        list.printReverse();  // Print the list in reverse order
+    // Display the linked list
+    public void display() {
+        Node current = head;
+        while (current != null) {
+            System.out.print(current.data + " -> ");
+            current = current.next;
+        }
+        System.out.println("null");
     }
 }
+
+public class Day4_Qs4 {
+    public static void main(String[] args) {
+        LinkedList list = new LinkedList();
+        list.insertAtEnd(1);
+        list.insertAtEnd(2);
+        list.insertAtEnd(3);
+        list.insertAtEnd(4);
+        list.insertAtEnd(5);
+
+        System.out.println("Original Linked List:");
+        list.display();
+
+        list.reverseList(); // Reverse the linked list
+
+        System.out.println("Reversed Linked List:");
+        list.display();
+    }
+}
+
