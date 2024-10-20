@@ -72,7 +72,7 @@ The repository is organized by **days**. Each day, a new problem or concept is c
 - 5. Deletion from End: Removes the last node by traversing to the second-to-last node and updating its pointer.
 - 6. Deletion from Specific Position: Deletes a node at a specified index by adjusting the previous node's pointer.
 
-### Day 3-Q3: [ Implement Deque Using Array](Day3_Q3.java)
+### Day 3-Q3: [ Implement Deque Using Array](Day3_Qs3.java)
 **Description**
 - 1. Enqueue: Adds an element to the end of the queue and updates the rear pointer, wrapping around if necessary.
 - 2. Dequeue: Removes and returns the front element of the queue while updating the front pointer, wrapping around if necessary.
