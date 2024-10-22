@@ -163,7 +163,7 @@ Return the new head of the reversed list from the recursive function.
 - 4. Exit:
 - Exits the program.
 
-### Day 6-Qs2: [ binary tree Delete operations](Day6_Qs2.java)
+### Day 6-Qs2: [ representing the AVL tree](Day6_Qs2.java)
 **Description**
 
 - 1. Insert: node = insert(node, data) - Inserts a new node with the specified data into the AVL tree and rebalances it if necessary.
