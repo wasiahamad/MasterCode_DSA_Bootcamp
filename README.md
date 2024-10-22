@@ -115,5 +115,65 @@ The repository is organized by **days**. Each day, a new problem or concept is c
 
 ### Day 4-Qs4: [ Revese Linked List](Day4_Qs4.java)
 **Description**
+- 1. Base Case:
+- If the list is empty (head == null) or has only one node (head.next == null), return the head.
+- 2. Recursive Call:
+- Recursively reverse the rest of the list (head.next).
+- 3. Reverse the Current Node:
+- After the recursion finishes, reverse the current node's pointer (head.next.next = head) to point it to itself.
+- 4. Fix the next Pointer:
+Set head.next = null to avoid circular references.
+- 5. Return New Head:
+Return the new head of the reversed list from the recursive function.
+
+### Day 5-Qs1: [ binary tree operations](Day5_Qs1.java)
+**Description**
+
+- 1. Insert:
+- Adds a node to the binary tree.
+- The first insert method uses level-order traversal (inserting level-wise), while the second insert method adds nodes based on binary search tree (BST) properties (smaller values go left, larger values go right).
+- 2. Traversal:
+- Inorder Traversal (Left, Root, Right): Visits the left subtree, then the root, and finally the right subtree.
+- Preorder Traversal (Root, Left, Right): Visits the root first, then the left subtree, and finally the right subtree.
+- Postorder Traversal (Left, Right, Root): Visits the left subtree, the right subtree, and finally the root.
+- 3. Search:
+- Searches for a specific value in the tree using recursion. If the value is found, it returns true; otherwise, false.
+- 4. Find Minimum:
+- Finds the minimum value in the tree by continuously traversing the left children.
+- 5. Delete:
+- Removes a node from the binary tree with three cases:
+    - Node has no children (leaf node).
+    - Node has one child.
+    - Node has two children (replaces the node's value with the minimum value from the right subtree).
+- 6. Height Calculation:
+- Computes the height (maximum depth) of the binary tree.
+- 7. Menu-driven program:
+- The main method provides a user interface to select different operations (like insert, traversal, search, etc.) using a menu-driven approach.
+
+
+### Day 6-Qs1: [ binary tree Delete operations](Day6_Qs1.java)
+**Description**
+
+- 1. Insert a Node:
+- Prompts the user for a value and inserts it into the BST using the insert() method.
+- 2. Delete a Node:
+- Prompts the user for a value and deletes it from the BST using the delete() method.
+- 3. Display Inorder Traversal:
+- Performs an inorder traversal of the BST and displays the nodes in sorted order.
+- 4. Exit:
+- Exits the program.
+
+### Day 6-Qs2: [ binary tree Delete operations](Day6_Qs2.java)
+**Description**
+
+- 1. Insert: node = insert(node, data) - Inserts a new node with the specified data into the AVL tree and rebalances it if necessary.
+
+- 2. Delete: node = delete(root, data) - Removes the node with the specified data from the AVL tree and rebalances it if necessary.
+
+- 3. Inorder Traversal: inorder(root) - Performs an inorder traversal of the tree and prints the node values in ascending order.
+
+- 4. Preorder Traversal: preorder(root) - Performs a preorder traversal of the tree and prints the node values in root-left-right order.
+
+- 5. Postorder Traversal: postorder(root) - Performs a postorder traversal of the tree and prints the node values in left-right-root order.
 
 
