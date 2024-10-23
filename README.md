@@ -176,4 +176,31 @@ Return the new head of the reversed list from the recursive function.
 
 - 5. Postorder Traversal: postorder(root) - Performs a postorder traversal of the tree and prints the node values in left-right-root order.
 
+### Day 7-Qs1: [ ](Day7_Qs1.java)
+**Description**
+
+- 1. Node Class:
+- Represents each node in the binary tree.
+- Contains an integer data for storing the value of the node.
+- Pointers left and right are used to reference the left and right children, respectively.
+
+- 2. Day7_Qs1 Class:
+
+- Contains the root of the binary tree and methods for inserting nodes and performing BFS traversal.
+
+- 3. Insert Method:
+
+- Inserts a new node into the binary tree using level-order insertion.
+- If the tree is empty, it sets the root to the new node.
+- It uses a queue to find the first available position in level order.
+
+- 4. BFS Method:
+
+- Performs a BFS traversal (also known as level-order traversal) of the binary tree.
+- It uses a queue to explore nodes level by level, printing the value of each node as it is visited.
+
+- 5. Main Method:
+
+- Provides a user interface for inserting nodes and performing BFS traversal.
+- A loop allows the user to choose operations until they decide to exit.
 
