@@ -176,7 +176,7 @@ Return the new head of the reversed list from the recursive function.
 
 - 5. Postorder Traversal: postorder(root) - Performs a postorder traversal of the tree and prints the node values in left-right-root order.
 
-### Day 7-Qs1: [ ](Day7_Qs1.java)
+### Day 7-Qs1: [ Implement BFS Algorithms](Day7_Qs1.java)
 **Description**
 
 - 1. Node Class:
@@ -204,3 +204,36 @@ Return the new head of the reversed list from the recursive function.
 - Provides a user interface for inserting nodes and performing BFS traversal.
 - A loop allows the user to choose operations until they decide to exit.
 
+### Day 7-Qs2: [ Implement Dijkstra’s Algorithm](Day7_Qs2.java)
+**Description**
+
+- Pair Class: Represents a vertex and its associated distance, implementing Comparable for priority queue usage.
+- dijkstraAlgorithm Method: Calculates the shortest path distances using a priority queue to explore vertices in order of their distances.
+- Graph Representation: The graph is represented using an adjacency list.
+
+### Day 7-Qs3: [ Implement Bubble-sort, Merge-sort, Quick-sort](Day7_Qs3.java)
+**Description**
+
+- User Input: The program takes the number of elements and the elements of the array as input from the user.
+- Sorting Algorithm Choice: The user can choose between Bubble Sort, Merge Sort, and Quick Sort.
+- Output: After sorting the array, the program prints the sorted array.
+
+### Day 7-Qs4: [ Implement Linear-Search, Binary-Search](Day7_Qs4.java)
+**Description**
+
+1. User Input: The user inputs the number of elements and the elements of the array.
+- Search Algorithm Choice: The user chooses between Linear Search and Binary Search.
+- Linear Search: Finds the element by checking each index.
+2. Binary Search: Requires the array to be sorted first.
+3. Sorting for Binary Search: If Binary Search is chosen, the array is sorted automatically.
+4. Search Result: The program outputs whether the element was found and at which index.
+
+### Day 7-Qs5: [ Implement Linear-Search, Binary-Search](Day7_Qs5.java)
+**Description**
+
+1. Edge Representation: Each edge has a source, destination, and weight. We store all edges in an array.
+2. Sorting: We sort the edges based on their weights in ascending order.
+3. Union-Find: We use the Union-Find algorithm to check for cycles and ensure that no cycles are formed when adding edges to the MST.
+4. Edge Selection: The algorithm selects edges in increasing order of weight and checks if they can be added to the MST without forming a cycle.
+5. Subset Union: When an edge is added, we use the union operation to combine the sets of the two vertices connected by the edge.
+6. Termination: The algorithm stops when the MST contains V-1 edges, where V is the number of vertices.
