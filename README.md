@@ -228,7 +228,7 @@ Return the new head of the reversed list from the recursive function.
 3. Sorting for Binary Search: If Binary Search is chosen, the array is sorted automatically.
 4. Search Result: The program outputs whether the element was found and at which index.
 
-### Day 7-Qs5: [ Implement Linear-Search, Binary-Search](Day7_Qs5.java)
+### Day 7-Qs5: [ Implement Kruskal's Algorithm](Day7_Qs5.java)
 **Description**
 
 1. Edge Representation: Each edge has a source, destination, and weight. We store all edges in an array.
