@@ -254,12 +254,12 @@ Return the new head of the reversed list from the recursive function.
 ### Table of Contents
 1. **Technologies Used**
 2. **How It Works**
--       File Creation
--       File Search
+- File Creation
+- File Search
 3. **Binary Search Algorithm**
 4. **Instructions**
--        Creating a File
--        Searching for a File
+- Creating a File
+- Searching for a File
 
 7. **Customization**
 6. **Conclusion**
@@ -272,13 +272,13 @@ Return the new head of the reversed list from the recursive function.
 * Binary Search: To search files efficiently within the virtual file system.
 
 2. ### How It Works
-* File Creation
+**File Creation**
 - Users can specify a file path, file name, and file content.
 - The application stores the file details in a virtual file list (files[] array).
 - The file is made available for download using the Blob API. This API converts the file content into a downloadable format.
 - The list of files is sorted alphabetically by file name using the localeCompare() method, ensuring efficient searching.
 
-* File Search
+**File Search**
 - Users can search for a file by entering the file name in the search bar.
 - The search operation is performed using a binary search algorithm on the sorted array of file names. -This  ensures fast retrieval, especially when there are many files.
 - If the file is found, the result is displayed showing the full file path and name. If not, the user is informed that the file was not found.
@@ -295,14 +295,14 @@ Return the new head of the reversed list from the recursive function.
 
 4.  ### Instructions
 
-* Creating a File
+**Creating a File**
 - Enter the file path: Specify where you want to store the file (e.g., /documents/myfolder/).
 - Enter the file name: Choose a name for the file (e.g., myfile.txt).
 - Enter the file content: Add the content you want the file to contain.
 - Click "Create and Download File": This will create the file and automatically download it to your device.
 - The file details (path and name) will be added to the virtual file system.
 
-* Searching for a File
+**Searching for a File**
 - Enter the file name: Type the name of the file you want to search for.
 - Click "Search": The application will perform a binary search and display whether the file was found or not.
 - If found, the full file path will be displayed. If not, a "File not found" message will be shown.
