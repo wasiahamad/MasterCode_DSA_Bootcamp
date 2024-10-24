@@ -238,34 +238,33 @@ Return the new head of the reversed list from the recursive function.
 5. Subset Union: When an edge is added, we use the union operation to combine the sets of the two vertices connected by the edge.
 6. Termination: The algorithm stops when the MST contains V-1 edges, where V is the number of vertices.
 
-
+## File Search Application
 ### File Search Application: [ Final Project of DSA-Bo0tcamp](FinalProject.html)
 
-## File Search Application
 **Description**
 
-- Overview
+**Overview** 
 * The File Search Application is a web-based tool that allows users to create and search for files in a virtual file system. The application uses a binary search algorithm to search for files efficiently and allows users to download files they create.
 
 
-- Features:
+**Features** :
 * Create Files: Users can create a new file by specifying a file path, file name, and file content. Once created, the file is immediately available for download.
 * Search Files: Users can search for a file by entering its name. The application uses binary search to find the file quickly and displays the result
 
 #### Table of Contents
-1. Technologies Used
-2. How It Works
-- File Creation
-- File Search
-3. Binary Search Algorithm
-4. Instructions
-- Creating a File
-- Searching for a File
+1. **Technologies Used**
+2. **How It Works**
+-       File Creation
+-       File Search
+3. **Binary Search Algorithm**
+4. **Instructions**
+-        Creating a File
+-        Searching for a File
 
-7. Customization
-6. Conclusion
+7. **Customization**
+6. **Conclusion**
 
-2. #### Technologies Used
+1. #### Technologies Used
 * HTML5: For structuring the content of the application.
 * CSS3: For styling the layout and elements of the page.
 * JavaScript: For handling file creation, file searching, and user interactions.
