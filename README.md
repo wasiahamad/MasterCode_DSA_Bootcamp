@@ -261,7 +261,7 @@ Return the new head of the reversed list from the recursive function.
 - Creating a File
 - Searching for a File
 
-7. **Customization**
+5. **Customization**
 6. **Conclusion**
 
 1. ### Technologies Used
