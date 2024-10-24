@@ -251,7 +251,7 @@ Return the new head of the reversed list from the recursive function.
 * Create Files: Users can create a new file by specifying a file path, file name, and file content. Once created, the file is immediately available for download.
 * Search Files: Users can search for a file by entering its name. The application uses binary search to find the file quickly and displays the result
 
-#### Table of Contents
+### Table of Contents
 1. **Technologies Used**
 2. **How It Works**
 -       File Creation
@@ -264,14 +264,14 @@ Return the new head of the reversed list from the recursive function.
 7. **Customization**
 6. **Conclusion**
 
-1. #### Technologies Used
+1. ### Technologies Used
 * HTML5: For structuring the content of the application.
 * CSS3: For styling the layout and elements of the page.
 * JavaScript: For handling file creation, file searching, and user interactions.
 * Blob API: To create downloadable files.
 * Binary Search: To search files efficiently within the virtual file system.
 
-2. #### How It Works
+2. ### How It Works
 * File Creation
 - Users can specify a file path, file name, and file content.
 - The application stores the file details in a virtual file list (files[] array).
@@ -283,7 +283,7 @@ Return the new head of the reversed list from the recursive function.
 - The search operation is performed using a binary search algorithm on the sorted array of file names. -This  ensures fast retrieval, especially when there are many files.
 - If the file is found, the result is displayed showing the full file path and name. If not, the user is informed that the file was not found.
 
-3. #### Binary Search Algorithm
+3. ### Binary Search Algorithm
 - The binary search algorithm is used to search for files by name. It works as follows:
 
 1. Compare the target file name with the middle element of the sorted file list.
@@ -293,7 +293,7 @@ Return the new head of the reversed list from the recursive function.
 
 - This approach ensures a time complexity of O(log n), making the search operation efficient even with a large number of files
 
-4.  #### Instructions
+4.  ### Instructions
 
 * Creating a File
 - Enter the file path: Specify where you want to store the file (e.g., /documents/myfolder/).
@@ -307,11 +307,11 @@ Return the new head of the reversed list from the recursive function.
 - Click "Search": The application will perform a binary search and display whether the file was found or not.
 - If found, the full file path will be displayed. If not, a "File not found" message will be shown.
 
-5. #### Customization
+5. ### Customization
 - Styling: You can modify the appearance of the page by editing the CSS rules in the <style> block within the HTML.
 - File Search Algorithm: If you wish to change how the file search works, you can replace the binary search algorithm with another search method (e.g., linear search).
 - File Storage: Currently, the files are stored in a virtual array (files[]). You could enhance the application by storing the files in a backend server or local storage for persistence.
 
-6. #### Conclusion
+6. ### Conclusion
 - The File Search Application demonstrates how to create and search for files in a virtual environment using basic web technologies and efficient searching algorithms like binary search. This application is a great example of how web technologies can be used to manage files and perform operations efficiently in a user-friendly interface.
 
